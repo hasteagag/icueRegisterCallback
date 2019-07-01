@@ -17,6 +17,8 @@ TODO:  Strip out the bunk from the default Visual Studio Examples (about box etc
         see if i can get the lambda working
         check if up events happen properly, as in AHK for example, last held time is irrelevant if you detect for {SC0xx Up} events...
 
+See example in backupPCREheading.ahk file here
+
 Corsair website en us:
 https://www.corsair.com/us/en/
 SDK available here, latest version as of writing this:
