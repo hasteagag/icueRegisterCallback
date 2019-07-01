@@ -16,3 +16,8 @@ TODO:  Strip out the bunk from the default Visual Studio Examples (about box etc
         Autohide the window
         see if i can get the lambda working
         check if up events happen properly, as in AHK for example, last held time is irrelevant if you detect for {SC0xx Up} events...
+
+Corsair website en us:
+https://www.corsair.com/us/en/
+SDK available here, latest version as of writing this:
+http://downloads.corsair.com/Files/CUE/CUESDK_3.0.234.zip
