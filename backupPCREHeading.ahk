@@ -1,5 +1,5 @@
 SetTitleMatchMode, 2
-DetectHiddenWindows On  ;nope
+DetectHiddenWindows On
 global lastHeldTimePointer=0
 global profilePointer:=0
 OnMessage(0x5556, "MsgMonitor")
@@ -12,6 +12,7 @@ ReadMemory(MADDRESS,PID)
 	result += *(&MVALUE + A_Index-1) << 8*(A_Index-1)
 	return, result
 }
+;these must match expected q key colors per cpp herein.  tweak as needed the RGB either in icue or in cpp:
 ProfileName(readNumber)
 {
 	sendBackProfileName:=""
@@ -109,7 +110,8 @@ MsgMonitor(wParam, lParam, msg)
 	}
 return
 SC0C1::
-	;MsgBox G14
+	;MsgBox G1
+	;make your own magic happen here
 return
 SC0C2::
 	;MsgBox G2	
